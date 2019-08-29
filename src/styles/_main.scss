@@ -1,0 +1,54 @@
+.logo{
+  font-size: 45px;
+  .text-blue{
+    color: #1eafed;
+  }
+  .text-yellow{
+    color:#fcbc0a
+  }
+}
+
+.text-blue{
+  color: #1446e6;
+}
+
+.text-12{
+  font-size: 12px;
+}
+
+.text-15{
+  font-size: 15px;
+}
+
+.material-btn{
+  box-shadow: 0 8px 12px 0 rgba(166, 166, 166, 0.27);
+  padding: 7px 25px;
+}
+
+.fb-btn{
+  background-color: #4267b2;
+}
+
+.shopex-btn{
+  background-color: #1745d7;
+  color: white !important;
+  box-shadow: 0 3px 6px 0 #1745d7;
+  padding: 3px 103px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.form-control{
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid;
+  text-align: right;
+  &:focus{
+    box-shadow: none;
+    border-color: unset;
+  }
+}
+
+.padding-big{
+  padding: 10px 85px;
+}

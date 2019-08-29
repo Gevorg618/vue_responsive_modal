@@ -1,0 +1,27 @@
+@media(max-width: 1199px){
+  .padding-big{
+    padding: 10px 30px;
+  }
+}
+@media(max-width: 991px){
+  .wide-tablet{
+    width: 100% !important;
+  }
+  .b-none{
+    border: none !important;
+  }
+  .shopex-btn{
+    padding: 3px 60px;
+    font-size: 20px;
+  }
+  .shopex-modal{
+    .header-section{
+      .primary-header{
+        font-size: 32px !important;
+      }
+      .secondary-header{
+        font-size: 22px !important;
+      }
+    }
+  }
+}

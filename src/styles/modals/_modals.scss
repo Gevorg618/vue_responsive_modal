@@ -1,0 +1,43 @@
+.modal-open{
+  #app{
+    filter: blur(5px);
+  }
+}
+.modal-backdrop{
+  background-color: #ababab;
+}
+.shopex-modal{
+  .modal-content{
+    background-color: unset;
+    border-radius: unset;
+    border: none;
+    .modal-header{
+      background-color: transparent;
+      padding: 1.7rem 1rem;
+      .close{
+        border:2px solid #000;
+        border-radius: 100%;
+        padding: 2px 8px;
+        outline: none;
+      }
+    }
+    .modal-footer{
+      display: none;
+    }
+    .modal-body{
+      background-color: #fff;
+      .header-section{
+        .primary-header{
+          font-size: 40px;
+          font-weight: bold;
+          letter-spacing: 0.36px;
+        }
+        .secondary-header{
+          font-size: 30px;
+          letter-spacing: 0.27px;
+        }
+      }
+    }
+  }
+}
+
